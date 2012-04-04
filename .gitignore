@@ -1,0 +1,9 @@
+# Vim
+*.swp
+*.swo
+
+# RVM
+.rvmrc
+
+# Gemfile
+Gemfile.lock
