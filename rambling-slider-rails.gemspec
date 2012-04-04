@@ -5,7 +5,9 @@ $:.unshift lib unless $:.include?(lib)
 require 'rambling-slider-rails/version'
 
 Gem::Specification.new do |s|
-  files = Dir[File.join(File.dirname(__FILE__), 'lib', '**', '**')].reject { |x| File.directory?(x) } + %w(LICENSE README.markdown)
+  files = %w(LICENSE README.markdown) +
+      Dir[File.join(File.dirname(__FILE__), 'lib', '**', '**')].reject { |x| File.directory?(x) } +
+      Dir[File.join(File.dirname(__FILE__), 'vendor', '**', '**')].reject { |x| File.directory?(x) }
 
   s.name = 'rambling-slider-rails'
   s.version = Rambling::Slider::Rails::VERSION
