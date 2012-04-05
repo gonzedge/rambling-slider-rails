@@ -31,6 +31,13 @@ And on your `application.css`, you can include this:
 */
 ```
 
+You can also include both the css and javascript files with the corresponding `stylesheet_link_tag` and `javascript_include_tag`:
+
+``` erb
+<%= stylesheet_link_tag 'jquery.rambling.slider' %>
+<%= javascript_include_tag 'jquery.rambling.slider' %>
+```
+
 For more information on how to use the jQuery Rambling Slider, you can go to [its wiki](https://github.com/ramblinglabs/rambling.slider/wiki).
 
 ## License and copyright
