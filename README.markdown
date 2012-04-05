@@ -20,7 +20,15 @@ Then, on your `application.js`, you can say something like this:
 
 ``` javascript
 //= require jquery
-//= require jquery_rambling_slider
+//= require jquery.rambling.slider
+```
+
+And on your `application.css`, you can include this:
+
+``` css
+/*
+ *= require jquery.rambling.slider
+*/
 ```
 
 For more information on how to use the jQuery Rambling Slider, you can go to [its wiki](https://github.com/ramblinglabs/rambling.slider/wiki).
