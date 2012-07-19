@@ -7,3 +7,6 @@
 
 # Gemfile
 Gemfile.lock
+
+# Bundler
+pkg/
