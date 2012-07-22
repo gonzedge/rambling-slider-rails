@@ -170,6 +170,6 @@
   margin-top: 150px;
 }
 
-@import "themes/default";
-@import "themes/orman";
-@import "themes/pascal";
+/*
+*= require_tree .
+*/
