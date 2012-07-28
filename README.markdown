@@ -28,7 +28,7 @@ And on your `application.css`, you can include this:
 ``` css
 /*
  *= require jquery.rambling.slider
-*/
+ */
 ```
 
 You can also include both the css and javascript files with the corresponding `stylesheet_link_tag` and `javascript_include_tag`:
