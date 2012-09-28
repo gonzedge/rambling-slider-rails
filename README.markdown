@@ -1,4 +1,4 @@
-# rambling-slider-rails [![Build Status](https://secure.travis-ci.org/egonzalez0787/rambling-slider-rails.png)](http://travis-ci.org/egonzalez0787/rambling-slider-rails) [![Dependency Status](https://gemnasium.com/egonzalez0787/rambling-slider-rails.png)](https://gemnasium.com/egonzalez0787/rambling-slider-rails) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/egonzalez0787/rambling-slider-rails)
+# rambling-slider-rails [![Build Status](https://secure.travis-ci.org/gonzedge/rambling-slider-rails.png)](http://travis-ci.org/gonzedge/rambling-slider-rails) [![Dependency Status](https://gemnasium.com/gonzedge/rambling-slider-rails.png)](https://gemnasium.com/gonzedge/rambling-slider-rails) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/gonzedge/rambling-slider-rails)
 
 The `rambling-slider-rails` gem provides an easy way to include the [jQuery Rambling Slider](https://github.com/ramblinglabs/rambling.slider) on your Rails application.
 

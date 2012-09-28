@@ -1,7 +1,7 @@
 (function() {
   /*!
    * jQuery Rambling Slider
-   * http://github.com/egonzalez0787/rambling.slider
+   * http://github.com/gonzedge/rambling.slider
    * http://ramblinglabs.com
    *
    * Copyright 2011-2012, Rambling Labs
