@@ -3,7 +3,8 @@
 *.swo
 
 # RVM
-.rvmrc
+.ruby-version
+.ruby-gemset
 
 # Gemfile
 Gemfile.lock
