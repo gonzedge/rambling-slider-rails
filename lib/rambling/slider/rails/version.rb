@@ -5,7 +5,7 @@ module Rambling
       VERSION = '0.1.2'
 
       # Current version of the jQuery Rambling Slider.
-      JQUERY_RAMBLING_SLIDER_VERSION = '0.3.1'
+      JQUERY_RAMBLING_SLIDER_VERSION = '0.3.2'
     end
   end
 end
