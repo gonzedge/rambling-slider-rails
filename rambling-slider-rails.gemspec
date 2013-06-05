@@ -19,5 +19,5 @@ Gem::Specification.new do |gem|
   gem.version = Rambling::Slider::Rails::VERSION
   gem.platform = Gem::Platform::RUBY
 
-  gem.add_dependency 'jquery-rails', '>=2.0.0'
+  gem.add_dependency 'jquery-rails', '>= 2.0.0', '< 3.0.0'
 end
