@@ -3,8 +3,8 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'rambling/slider/rails/version'
 
 Gem::Specification.new do |gem|
-  gem.authors = ['Rambling Labs']
-  gem.email = ['development@ramblinglabs.com']
+  gem.authors = ['Edgar Gonzalez']
+  gem.email = ['edggonzalezg@gmail.com']
   gem.description = 'The rambling-slider-rails is a gem aimed to automate the usage of the jQuery Rambling Slider within a Rails application.'
   gem.summary = 'Automate usage of jQuery Rambling Slider within Rails.'
   gem.homepage = 'http://github.com/ramblinglabs/rambling-slider-rails'
