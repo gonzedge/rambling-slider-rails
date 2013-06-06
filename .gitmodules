@@ -1,0 +1,3 @@
+[submodule "rambling.slider"]
+	path = rambling.slider
+	url = git://github.com/gonzedge/rambling.slider.git
