@@ -1,5 +1,5 @@
 /*!
- * jQuery Rambling Slider
+ * jQuery Rambling Slider v0.4.0
  * http://github.com/gonzedge/rambling.slider
  * http://ramblinglabs.com
  *
@@ -7,7 +7,7 @@
  * Released under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  *
- * May 2013
+ * June 2013
  *
  * Based on jQuery Nivo Slider by Gilbert Pellegrom
 */
@@ -614,9 +614,6 @@
         children.each(function() {
           var child, clone;
           child = $(this);
-          child.css({
-            display: 'none'
-          });
           clone = child.clone().addClass('slideElement');
           if (clone.containsFlash()) {
             if (!clone.find('param[name=wmode]').length) {
@@ -663,12 +660,7 @@
             display: 'none'
           });
         });
-        child = setCurrentSlideElement(children);
-        if (child.is('a')) {
-          return child.css({
-            display: 'block'
-          });
-        }
+        return child = setCurrentSlideElement(children);
       };
       addCaption = function() {
         slider.append($('<div class="rambling-caption"><p></p></div>').css({
@@ -690,10 +682,10 @@
               return directionNav.hide();
             }));
           }
-          slider.find('a.rambling-prevNav').live('click', function() {
+          slider.find('a.rambling-prevNav').on('click', function() {
             return slideTo('prev');
           });
-          return slider.find('a.rambling-nextNav').live('click', function() {
+          return slider.find('a.rambling-nextNav').on('click', function() {
             return slideTo('next');
           });
         }
@@ -725,7 +717,7 @@
           }
           controlNavAnchors = slider.find('.rambling-controlNav a');
           controlNavAnchors.filter(":eq(" + vars.currentSlide + ")").addClass('active');
-          return controlNavAnchors.live('click', function() {
+          return controlNavAnchors.on('click', function() {
             if (vars.running) {
               return false;
             }
@@ -801,6 +793,11 @@
         child = $(children.get(vars.currentSlide));
         vars.previousSlideElement = vars.currentSlideElement;
         vars.currentSlideElement = child;
+        if (child.is('a')) {
+          child.css({
+            display: 'block'
+          });
+        }
         if (child.is('a') && !child.containsFlash()) {
           vars.currentSlideElement = child.find('img:first');
         }
