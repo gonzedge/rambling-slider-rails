@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.name = 'rambling-slider-rails'
+  gem.license = 'MIT'
   gem.version = Rambling::Slider::Rails::VERSION
   gem.platform = Gem::Platform::RUBY
 
